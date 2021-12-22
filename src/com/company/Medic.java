@@ -2,8 +2,7 @@ package com.company;
 
 public class Medic extends Hero{
     @Override
-    public String applySuperAbility(String superAbilityType) {
+    public void applySuperAbility(String superAbilityType) {
         System.out.println("Medic применил суперспособность CRITICAL DAMAGE");
-        return null;
     }
 }
